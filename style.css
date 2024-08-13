@@ -11,10 +11,13 @@ nav {
   align-items: center;
 }
 
+nav .logo {
+  color: #36cb45;
+}
+
 .logo {
   font-family: "Irish Grover", system-ui;
   font-size: 32px;
-  color: #36cb45;
 }
 
 .nav-items {
@@ -54,6 +57,14 @@ nav {
 .vertical-container {
   display: flex;
   flex-direction: column;
+}
+
+.horizontal-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#catch .vertical-container {
   gap: 12px;
 }
 
@@ -76,4 +87,69 @@ p {
   border-radius: 8px;
   padding: 16px 20px;
   width: 50%;
+  cursor: pointer;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 10vh 10vw;
+}
+
+#cards .card {
+  padding: 12px;
+  width: 20vw;
+  gap: 24px;
+  background-color: #fff;
+  border: solid #8a8a8a 1px;
+  border-radius: 8px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#cards img {
+  width: 60px;
+  border-radius: 30px;
+}
+
+#cards .description {
+  justify-content: space-between;
+}
+
+#cards .horizontal-container {
+  gap: 20px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #36cb45;
+}
+
+#footer {
+  background-color: #7a1111;
+  padding: 24px 64px 56px;
+  color: white;
+}
+
+#footer .catalog {
+  padding-top: 20px;
+  gap: 5vw;
+}
+
+#footer h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#footer a {
+  font-size: 18px;
+}
+
+#footer .items {
+  padding-top: 16px;
+  gap: 8px;
 }
